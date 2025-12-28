@@ -15,22 +15,15 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-    }
-
-    main {
-      display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex: 1;
-      text-align: center;
-      padding: 50px 20px;
     }
 
     h1 {
       font-size: 28px;
       font-weight: normal;
       margin-bottom: 40px;
+      display: none; /* Başlık kaldırıldı */
     }
 
     /* Butonlar yan yana */
@@ -63,14 +56,26 @@
       color: #666;
       padding: 20px;
       border-top: 1px solid #ccc;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: #fff;
     }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+    }
+
   </style>
 </head>
 <body>
 
   <main>
-    <h1>Be Tennis & Padel</h1>
-
     <div class="button-group">
       <a href="privacypolicy.html">Privacy Policy</a>
       <a href="terms.html">Terms & Conditions</a>
