@@ -1,91 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Be Tennis & Padel</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* Genel stil */
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: #fff;
-      color: #000;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      justify-content: center;
-      align-items: center;
-    }
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Be Tennis & Padel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-    h1 {
-      font-size: 28px;
-      font-weight: normal;
-      margin-bottom: 40px;
-      display: none; /* Başlık kaldırıldı */
-    }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        background: #fff;
+        color: #000;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-    /* Butonlar yan yana */
-    .button-group {
-      display: flex;
-      gap: 20px; /* Butonlar arası boşluk */
-      flex-wrap: wrap; /* Mobilde alt alta geçsin */
-      justify-content: center;
-    }
+      .button-group {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
-    .button-group a {
-      display: inline-block;
-      padding: 12px 24px;
-      text-decoration: none;
-      color: #000;
-      border: 1px solid #000; /* Keskin kenar */
-      background: #fff;
-      font-weight: bold;
-      transition: background 0.3s, color 0.3s;
-    }
+      .button-group a {
+        display: inline-block;
+        padding: 14px 28px;
+        text-decoration: none;
+        color: #000;
+        border: 2px solid #000;
+        background: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        transition: background 0.2s, color 0.2s;
+      }
 
-    .button-group a:hover {
-      background: #000;
-      color: #fff;
-    }
+      .button-group a:hover {
+        background: #000;
+        color: #fff;
+      }
 
-    footer {
-      text-align: center;
-      font-size: 14px;
-      color: #666;
-      padding: 20px;
-      border-top: 1px solid #ccc;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      background: #fff;
-    }
+      footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        color: #000;
+        padding: 16px;
+        border-top: 1px solid #000;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
 
-    main {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 40px;
-    }
-
-  </style>
-</head>
-<body>
-
-  <main>
     <div class="button-group">
       <a href="privacypolicy.html">Privacy Policy</a>
       <a href="terms.html">Terms & Conditions</a>
       <a href="account-deletion.html">Account Deletion</a>
     </div>
-  </main>
 
-  <footer>
-    © 2025 Be Tennis & Padel
-  </footer>
+    <footer>
+      © 2025 Be Tennis & Padel
+    </footer>
 
-</body>
-</html>
+  </body>
+  </html>
