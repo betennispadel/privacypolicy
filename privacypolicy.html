@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | Be Tennis & Padel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        background: #fff;
+        color: #000;
+        padding: 48px 24px 100px;
+        max-width: 800px;
+        margin: auto;
+        line-height: 1.7;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-bottom: 40px;
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        border-bottom: 2px solid #000;
+        padding-bottom: 2px;
+        transition: opacity 0.2s;
+      }
+
+      .back-link:hover {
+        opacity: 0.6;
+      }
+
+      .last-updated {
+        display: inline-block;
+        background: #f5f5f5;
+        padding: 8px 16px;
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 16px;
+        border-left: 4px solid #000;
+        padding-left: 16px;
+      }
+
+      .intro {
+        font-size: 16px;
+        color: #444;
+        margin-bottom: 40px;
+        padding-left: 20px;
+      }
+
+      .intro strong {
+        color: #000;
+      }
+
+      .data-controller {
+        background: #000;
+        color: #fff;
+        padding: 32px;
+        margin-bottom: 48px;
+      }
+
+      .data-controller h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .data-controller p {
+        font-size: 14px;
+        margin-bottom: 8px;
+        color: #ccc;
+      }
+
+      .data-controller strong {
+        color: #fff;
+      }
+
+      .section {
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .section:last-of-type {
+        border-bottom: none;
+      }
+
+      .section-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .section-number {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #000;
+        color: #fff;
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-right: 14px;
+        flex-shrink: 0;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }
+
+      .section > p {
+        font-size: 15px;
+        color: #333;
+        margin-bottom: 16px;
+        padding-left: 50px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 24px 0 12px 50px;
+        color: #000;
+      }
+
+      ul {
+        list-style: none;
+        margin-bottom: 20px;
+        padding-left: 50px;
+      }
+
+      ul li {
+        padding: 10px 0;
+        font-size: 14px;
+        color: #333;
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      ul li::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        background: #000;
+        display: inline-block;
+        flex-shrink: 0;
+        margin-top: 7px;
+      }
+
+      .data-table {
+        margin: 20px 0 20px 50px;
+        border: 2px solid #000;
+      }
+
+      .data-table-row {
+        display: flex;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .data-table-row:last-child {
+        border-bottom: none;
+      }
+
+      .data-table-label {
+        background: #f5f5f5;
+        padding: 12px 16px;
+        font-size: 13px;
+        font-weight: 600;
+        width: 40%;
+        border-right: 1px solid #e0e0e0;
+      }
+
+      .data-table-value {
+        padding: 12px 16px;
+        font-size: 13px;
+        color: #333;
+        width: 60%;
+      }
+
+      .highlight-box {
+        background: #f5f5f5;
+        border-left: 4px solid #000;
+        padding: 20px 24px;
+        margin: 20px 0 20px 50px;
+        font-size: 14px;
+        color: #333;
+      }
+
+      .highlight-box strong {
+        color: #000;
+      }
+
+      .third-party {
+        background: #fafafa;
+        border: 2px solid #000;
+        padding: 20px;
+        margin: 20px 0 20px 50px;
+      }
+
+      .third-party-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 14px;
+      }
+
+      .third-party-item:last-child {
+        border-bottom: none;
+      }
+
+      .third-party-name {
+        font-weight: 600;
+      }
+
+      .third-party-purpose {
+        color: #666;
+      }
+
+      .rights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+        margin: 20px 0 20px 50px;
+      }
+
+      .right-card {
+        border: 2px solid #000;
+        padding: 20px;
+      }
+
+      .right-card h4 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+
+      .right-card p {
+        font-size: 13px;
+        color: #666;
+      }
+
+      .children-notice {
+        background: #000;
+        color: #fff;
+        padding: 24px;
+        margin: 20px 0 20px 50px;
+      }
+
+      .children-notice h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+      }
+
+      .children-notice p {
+        font-size: 14px;
+        color: #ccc;
+      }
+
+      .contact-box {
+        background: #000;
+        color: #fff;
+        padding: 32px;
+        margin-top: 40px;
+      }
+
+      .contact-box h2 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
+      .contact-box p {
+        color: #ccc;
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+
+      .contact-email {
+        display: inline-block;
+        background: #fff;
+        color: #000;
+        padding: 14px 24px;
+        font-weight: 700;
+        font-size: 15px;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        color: #000;
+        padding: 16px;
+        border-top: 1px solid #000;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+
+    <a href="index.html" class="back-link">← Back to Home</a>
+
+    <span class="last-updated">Last Updated: December 28, 2025</span>
+
+    <h1>Privacy Policy</h1>
+    <p class="intro">This Privacy Policy describes how <strong>Be Tennis & Padel</strong> collects, uses, and protects your personal information when you use our mobile application.</p>
+
+    <div class="data-controller">
+      <h2>Data Controller</h2>
+      <p><strong>BE Global Raket Sporları Teknolojileri Geliştirme</strong></p>
+      <p>Developer: Müslüm DAĞ</p>
+      <p>Website: btennispadel.com</p>
+      <p>Email: info@btennispadel.com</p>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">1</span>
+        <h2>Information We Collect</h2>
+      </div>
+      <p>We collect the following types of personal information to provide and improve our services:</p>
+
+      <h3>1.1 Identity & Contact Information</h3>
+      <ul>
+        <li>First name and last name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>Date of birth</li>
+        <li>Profile photo</li>
+      </ul>
+
+      <h3>1.2 Account & Security Information</h3>
+      <ul>
+        <li>Username</li>
+        <li>Password (stored encrypted)</li>
+        <li>Firebase Authentication credentials</li>
+        <li>Session information</li>
+      </ul>
+
+      <h3>1.3 Location Information</h3>
+      <ul>
+        <li>GPS location data (to show nearby facilities)</li>
+        <li>City/district information</li>
+      </ul>
+
+      <h3>1.4 Device & Technical Information</h3>
+      <ul>
+        <li>Device model and operating system</li>
+        <li>Unique device identifiers (Device ID)</li>
+        <li>IP address</li>
+        <li>Push notification tokens</li>
+        <li>Application version</li>
+      </ul>
+
+      <h3>1.5 Usage & Transaction Information</h3>
+      <ul>
+        <li>Application usage statistics</li>
+        <li>Reservation history</li>
+        <li>In-app purchase records</li>
+        <li>Payment transaction information</li>
+      </ul>
+
+      <h3>1.6 Visual & Audio Records</h3>
+      <ul>
+        <li>Photos uploaded by users</li>
+        <li>Court security camera footage</li>
+        <li>Live match and training broadcasts</li>
+        <li>Recorded video content</li>
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">2</span>
+        <h2>How We Use Your Information</h2>
+      </div>
+      <p>Your personal data is processed for the following purposes:</p>
+      <ul>
+        <li>User account creation and management</li>
+        <li>Tennis and padel court reservations</li>
+        <li>Displaying nearby facilities (location-based services)</li>
+        <li>Processing in-app purchases and payments</li>
+        <li>Training and tournament participation</li>
+        <li>Sending push notifications and messages</li>
+        <li>Service development and improvement</li>
+        <li>Security and fraud prevention</li>
+        <li>Fulfilling legal obligations</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">3</span>
+        <h2>Legal Basis for Processing</h2>
+      </div>
+      <p>We process your personal data based on the following legal grounds:</p>
+      <ul>
+        <li><strong>Consent:</strong> Your explicit consent for specific processing activities</li>
+        <li><strong>Contract:</strong> Necessary for the performance of our service agreement</li>
+        <li><strong>Legal Obligation:</strong> Compliance with applicable laws and regulations</li>
+        <li><strong>Legitimate Interest:</strong> Our legitimate business interests</li>
+      </ul>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">4</span>
+        <h2>Third-Party Services</h2>
+      </div>
+      <p>We share your data with the following third-party service providers:</p>
+
+      <div class="third-party">
+        <div class="third-party-item">
+          <span class="third-party-name">Firebase (Google)</span>
+          <span class="third-party-purpose">Authentication, Database, Push Notifications</span>
+        </div>
+        <div class="third-party-item">
+          <span class="third-party-name">Apple Inc.</span>
+          <span class="third-party-purpose">App Store Purchases</span>
+        </div>
+        <div class="third-party-item">
+          <span class="third-party-name">Google LLC</span>
+          <span class="third-party-purpose">Google Play Purchases</span>
+        </div>
+        <div class="third-party-item">
+          <span class="third-party-name">Payment Providers</span>
+          <span class="third-party-purpose">Payment Processing</span>
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>Important:</strong> Your personal data will never be sold to third parties for marketing purposes.
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">5</span>
+        <h2>Data Retention</h2>
+      </div>
+      <p>We retain your personal data for the following periods:</p>
+
+      <div class="data-table">
+        <div class="data-table-row">
+          <div class="data-table-label">Account Information</div>
+          <div class="data-table-value">Active period + 30 days after deletion</div>
+        </div>
+        <div class="data-table-row">
+          <div class="data-table-label">Transaction Records</div>
+          <div class="data-table-value">10 years (legal requirement)</div>
+        </div>
+        <div class="data-table-row">
+          <div class="data-table-label">Payment Information</div>
+          <div class="data-table-value">10 years (tax legislation)</div>
+        </div>
+        <div class="data-table-row">
+          <div class="data-table-label">Usage Data</div>
+          <div class="data-table-value">2 years</div>
+        </div>
+        <div class="data-table-row">
+          <div class="data-table-label">Communication Records</div>
+          <div class="data-table-value">3 years</div>
+        </div>
+        <div class="data-table-row">
+          <div class="data-table-label">Visual/Audio Records</div>
+          <div class="data-table-value">2 years</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">6</span>
+        <h2>Data Security</h2>
+      </div>
+      <p>We implement the following security measures to protect your data:</p>
+      <ul>
+        <li>SSL/TLS encryption for data transfer</li>
+        <li>Firebase security rules</li>
+        <li>Password storage with hash algorithms</li>
+        <li>Access control and authorization</li>
+        <li>Regular security audits</li>
+        <li>Data backup systems</li>
+      </ul>
+    </div>
+
+    <!-- Section 7 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">7</span>
+        <h2>Your Rights</h2>
+      </div>
+      <p>You have the following rights regarding your personal data:</p>
+
+      <div class="rights-grid">
+        <div class="right-card">
+          <h4>Right to Access</h4>
+          <p>Learn whether your personal data is being processed and request information about it.</p>
+        </div>
+        <div class="right-card">
+          <h4>Right to Rectification</h4>
+          <p>Request correction of incomplete or inaccurate personal data.</p>
+        </div>
+        <div class="right-card">
+          <h4>Right to Erasure</h4>
+          <p>Request deletion of your personal data when processing is no longer necessary.</p>
+        </div>
+        <div class="right-card">
+          <h4>Right to Object</h4>
+          <p>Object to automated decision-making that affects you.</p>
+        </div>
+        <div class="right-card">
+          <h4>Right to Data Portability</h4>
+          <p>Receive your data in a structured, machine-readable format.</p>
+        </div>
+        <div class="right-card">
+          <h4>Right to Compensation</h4>
+          <p>Request compensation for damages from unlawful data processing.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 8 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">8</span>
+        <h2>Children's Privacy</h2>
+      </div>
+      <p>Be Tennis & Padel is designed for users aged 7 and above.</p>
+
+      <div class="children-notice">
+        <h4>For Children Under 13</h4>
+        <p>Registration requires parental or legal guardian consent. Only minimum data necessary for service delivery is collected. Direct marketing content is not sent. Parents have the r
+ight to review, delete, or prevent further collection of their children's data.</p>
+      </div>
+    </div>
+
+    <!-- Section 9 -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-number">9</span>
+        <h2>Policy Updates</h2>
+      </div>
+      <p>This Privacy Policy may be updated from time to time. When we make changes, we will notify you through in-app notifications and/or email. The most current version is always availa
+ble on our website and within the application.</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+      <p>To exercise your rights or if you have any questions about this Privacy Policy, please contact us:</p>
+      <span class="contact-email">info@btennispadel.com</span>
+      <p style="margin-top: 20px; margin-bottom: 0;">Website: btennispadel.com</p>
+    </div>
+
+    <footer>
+      © 2025 Be Tennis & Padel
+    </footer>
+
+  </body>
+  </html>
